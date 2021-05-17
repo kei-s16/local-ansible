@@ -1,4 +1,5 @@
 ---
 - hosts: node
   roles:
+    - common
     - upgrade-packages
