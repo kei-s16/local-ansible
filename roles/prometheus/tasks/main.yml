@@ -1,0 +1,14 @@
+- name: "install prometheus"
+  become: yes
+  remote_user: "{{ ssh_remote_user }}"
+  community.general.pacman:
+    name: prometheus
+    state: present
+
+- name: "install prometheus-node-exporter"
+  become: yes
+  remote_user: "{{ ssh_remote_user }}"
+  community.general.pacman:
+    name: prometheus-node-exporter
+    state: present
+
