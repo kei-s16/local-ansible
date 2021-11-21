@@ -2,5 +2,4 @@
 - hosts: node
   roles:
     - rsync
-    - upgrade-packages
     - prometheus
