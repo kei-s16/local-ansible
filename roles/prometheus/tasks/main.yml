@@ -12,3 +12,16 @@
     name: prometheus-node-exporter
     state: present
 
+- name: "enable prometheus service"
+  ansible.builtin.systemd:
+    name: prometheus
+    enabled: yes
+    state: started
+  become: yes
+
+- name: "enable prometheus-node-exporter service"
+  ansible.builtin.systemd:
+    name: prometheus-node-exporter
+    enabled: yes
+    state: started
+  become: yes

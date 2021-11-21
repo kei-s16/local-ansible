@@ -1,0 +1,14 @@
+---
+- name: "Install zsh"
+  become: yes
+  remote_user: "{{ ssh_remote_user }}"
+  community.general.pacman:
+    name: zsh
+    state: installed
+
+- name: "Install zsh-completions"
+  become: yes
+  remote_user: "{{ ssh_remote_user }}"
+  community.general.pacman:
+    name: zsh-completions
+    state: installed

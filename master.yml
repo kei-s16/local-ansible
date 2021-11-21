@@ -2,5 +2,3 @@
 - hosts: master
   roles:
     - rsync
-    - upgrade-packages
-    - prometheus
