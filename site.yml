@@ -1,3 +1,4 @@
 ---
+- import_playbook: rpi.yml
 - import_playbook: master.yml
 - import_playbook: node.yml
