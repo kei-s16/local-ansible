@@ -1,0 +1,7 @@
+---
+- name: "Install base-devel"
+  become: yes
+  remote_user: "{{ ssh_remote_user }}"
+  community.general.pacman:
+    name: base-devel
+    state: installed
