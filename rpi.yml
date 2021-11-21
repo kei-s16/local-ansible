@@ -1,6 +1,5 @@
 ---
 - hosts: all
   roles:
-    - rsync
     - upgrade-packages
     - prometheus

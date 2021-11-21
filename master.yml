@@ -2,4 +2,3 @@
 - hosts: master
   roles:
     - rsync
-    - prometheus

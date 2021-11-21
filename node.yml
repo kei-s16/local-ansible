@@ -2,4 +2,3 @@
 - hosts: node
   roles:
     - rsync
-    - prometheus
