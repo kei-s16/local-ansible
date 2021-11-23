@@ -1,0 +1,3 @@
+---
+- hosts: rpi0w
+    - vim

@@ -3,6 +3,4 @@
   roles:
     - prometheus
     - zsh
-    - neovim
-    - deno
     - git
