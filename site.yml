@@ -1,5 +1,8 @@
 ---
 - import_playbook: rpi_all.yml
+- import_playbook: rpi4.yml
+- import_playbook: rpi2.yml
+- import_playbook: rpi0w.yml
 - import_playbook: master.yml
 - import_playbook: node.yml
 - import_playbook: bastion.yml
