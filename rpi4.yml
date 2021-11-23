@@ -1,0 +1,4 @@
+---
+- hosts: rpi4
+    - neovim
+    - deno
